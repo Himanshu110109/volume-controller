@@ -64,4 +64,5 @@ while True:
             cv2.circle(img, (int(cx), int(cy)), 15, (0, 0, 255), cv2.FILLED)
     cv2.putText(img, f"FPS: {int(fps)}", (40, 70), cv2.FONT_HERSHEY_PLAIN, 2, (255,0,0), 2)
     cv2.imshow("volume control", img)
+
     cv2.waitKey(1)
